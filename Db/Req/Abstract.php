@@ -7,6 +7,11 @@
  * when using PDO, so we take all that
  * repated code, and abstract it with methods.
  * that can be reused.
+ * There might be times when different parts of
+ * an application talk to different databases.
+ * This class stores the different adapters
+ * under an alias, so one can retrieve a
+ * specific adapter with the given alias.
  * 
  * @author gui
  *
