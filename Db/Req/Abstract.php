@@ -1,8 +1,12 @@
 <?php
 /**
  * This class is used as a placeholder
- * for the Db adapter plus it forces
- * the adapter to have an interface.
+ * for the Db adapter. The most common
+ * way to talk to the db is through PDO.
+ * There is a lot of code that gets repeated,
+ * when using PDO, so we take all that
+ * repated code, and abstract it with methods.
+ * that can be reused.
  * 
  * @author gui
  *
